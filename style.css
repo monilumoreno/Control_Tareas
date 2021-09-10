@@ -1,29 +1,4 @@
-<<<<<<< HEAD
-body{
-    font-family: 'verdana' ;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background-color: #FFFFFF;
-    
 
-}
-
-form{
-    /*background-image: url("./imagenes/img2.jpg");
-    filter: brightness(90%);*/
-    margin: 50px;
-    padding: 10x 0;
-    /*box-shadow: 0 0 6px 0 rgba(255, 255, 255, 0.8);
-    border-radius: 10px;*/
-}
-
-.text-center{
-    
-    margin: 50px;
-}
-
-=======
 body {
     font-family: 'Almarai', sans-serif;
     width: initial;
@@ -71,5 +46,3 @@ H1 {
     align-items: center;
     margin-left: auto;
     margin-right: auto;
-}
->>>>>>> 62a8d8c945ea07ee2ba269159d4f5a233c8095de
