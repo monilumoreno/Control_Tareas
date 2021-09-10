@@ -1,0 +1,25 @@
+body {
+    background-color: rgb(44 130 201);
+}
+
+h2 {
+    color: white;
+    margin-top: 30px;
+}
+
+h1 {
+    color: black;
+    margin-top: 60px;
+}
+
+label {
+    color: white;
+    font-size: calc(1.325rem + .9vw);
+    margin-top: 40px;
+}
+
+.form-check-input {
+    margin-top: 50px;
+    width: 28px;
+    height: 28px;
+}

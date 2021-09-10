@@ -1,11 +1,11 @@
-﻿<!DOCTYPE html>
+﻿<!doctype html>
 <html lang=es>
 
 <head>
     <meta charset=UTF-8>
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title> I.E: Gustavo Duarte Aleman | Bienvenido</title>
+    <title> I.E: Gustavo Duarte Aleman | Incio de sesión</title>
     <link rel="stylesheet" href="./style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -13,16 +13,22 @@
     <link href="https://fonts.googleapis.com/css2?family=Almarai:wght@400;700&display=swap" rel="stylesheet">
 </head>
 
-
 <body>
     <section>
-        <a href="login.html" alt="Logo Institucion Educativa" id="logo" name="logo"><img src="./logo.png" alt="Logo Institucion Educativa" id="logo" name="logo"></a>
+        <img src="./logo.png" alt="Logo Institucion Educativa" id="logo" name="logo">
     </section>
 
-    <section>
-        <H1>Aplicación Control de Tareas</H1>
-        <H1>Bienvenid@s</H1>
-    </section>
+    <form id="form" name="form" action="" method="POST">
+        <section>
+            <label for="usuario">Usuario:</label>
+            <input type="text" id="usuario" name="usuario">
+            <label for="contraseña">Contraseña:</label>
+            <input type="password" id="contraseña" name="contraseña">
+            <button type="submit" id="enviar" name="enviar">Enviar</button>
+        </section>
+
+
+    </form>
 
 
 </body>
