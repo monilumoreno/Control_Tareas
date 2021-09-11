@@ -1,0 +1,84 @@
+body {
+    background-color: rgb(50, 50, 156);
+    font-family: 'Almarai', sans-serif;
+    width: initial;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#logo {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+button {
+    padding: 0.5em 1em;
+    border: none;
+    background: rgb(145, 130, 50);
+    cursor: pointer;
+    font-weight: 600;
+    color: #FFF;
+    
+}
+
+#form input {
+    width: 90%;
+    height: 30px;
+    margin: 0.5rem;
+}
+
+h1{
+    color: white;    
+    width: 90%;
+    height: 30px;
+    margin: 0.5rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+h2{
+    color: black;
+    margin-top: 60px;
+    text-align: center;
+}
+
+label {
+    color: white;
+    font-size: calc(1.325rem + .9vw);
+    align-self: left;
+} 
+
+div{
+    align-content: center;
+    
+}
+
+input[type="checkbox"]{
+    content: "";
+	width: 28px;
+	height: 28px;
+	float: right;
+	margin: 0.5em 0.5em 0 0;
+	border: 2px solid #ccc;
+	background: #fff;
+}
+input[type="checkbox"]:checked {
+    box-shadow: 0 0 0 3px whitesmoke;
+  }
+
+ 
+
