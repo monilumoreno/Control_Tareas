@@ -1,48 +1,25 @@
 body {
-    font-family: 'Almarai', sans-serif;
-    width: initial;
-    margin-left: auto;
-    margin-right: auto;
+    background-color: rgb(44 130 201);
 }
 
-#logo {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
+h2 {
+    color: white;
+    margin-top: 30px;
 }
 
-#form {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    margin-left: auto;
-    margin-right: auto;
+h1 {
+    color: black;
+    margin-top: 60px;
 }
 
-#form input {
-    width: 90%;
-    height: 30px;
-    margin: 0.5rem;
+label {
+    color: white;
+    font-size: calc(1.325rem + .9vw);
+    margin-top: 40px;
 }
 
-#form button {
-    padding: 0.5em 1em;
-    border: none;
-    background: rgb(145, 130, 50);
-    cursor: pointer;
-    font-weight: 600;
-    color: #FFF;
-}
-
-H1 {
-    width: 90%;
-    height: 30px;
-    margin: 0.5rem;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    margin-left: auto;
-    margin-right: auto;
+.form-check-input {
+    margin-top: 50px;
+    width: 28px;
+    height: 28px;
 }
