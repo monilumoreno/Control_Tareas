@@ -18,23 +18,26 @@
         <figcaption class="figure-caption text-center">Logo de la Institucion Educativa.</figcaption>
     </div>
     <div class="row">
-        <div class="col-6 offset-3 ">
+        <div class="col-3 offset-5 ">
 
 
-            <form class="needs-validation " id="form" name="form" action="" method="POST">
+            <form class="needs-validation" id="form" name="form" action="valida.html" method="POST" novalidate>
                 <div class="row">
-                    <div class="col-12 ">
+                    <div class="col-8 ">
                         <label for="usuario">Usuario:</label>
-                        <input type="text" id="usuario" name="usuario" class="form-control" aria-describedby="usuarioHelpBlock" required>
-                        <div id="usuarioHelpBlock" class="form-text">No compartirás tu usuario con alguien mas.</div>
-                        <label class="invisible" for="contraseña">Contraseña:</label>
-                        <input class="invisible" type="password" id="contraseña" name="contraseña" class="form-control" aria-describedby="passwordHelpInline">
-                        <span class="invisible" id="passwordHelpInline" class="form-text">
-                Debe ser la asignada por el administrador.
-            </span>
-                        <div class="invisible" id="passwordHelpBlock" class="form-text">No compartirás tu clave con alguien mas.</div>
-                        <button class="btn btn-lg" type="submit" id="enviar" name="enviar">Enviar</button>
+                        <input type="text" id="usuario" placeholder="Cuenta de usuario:" name="usuario" class="form-control" aria-describedby="usuarioHelpBlock" required>
 
+
+                        <span id="usuarioHelpBlock" class="form-text">No compartirás tu usuario con alguien mas.</span>
+                        <label for="contraseña">Contraseña:</label>
+                        <input type="password" id="contraseña" placeholder="Contraseña" name="contraseña" class="form-control" aria-describedby="passwordHelpBlock" required>
+
+
+                        <span id="passwordHelpBlock" class="form-text">No compartirás tu clave con alguien mas.</span>
+                        <span class="d-grid gap-2 col-3 mx-auto">
+                            <button class="btn btn-outline-light btn-sm" type="submit" id="enviar" name="enviar">></button>
+                        </span>
+                        <div id="popover" name="popover" data-bs-toggle="popover" title="Tenemos un problema" data-bs-content="Debes de llenar ambos campos con los datos requeridos para poder continuar"></div>
 
                     </div>
                 </div>
@@ -43,6 +46,8 @@
 
         </div>
     </div>
-
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ" crossorigin="anonymous"></script>
+    <script src="index.js"></script>
 </body>
+
 </html>
