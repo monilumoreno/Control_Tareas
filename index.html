@@ -1,30 +1,54 @@
-﻿<!DOCTYPE html>
+﻿<!doctype html>
 <html lang=es>
 
 <head>
     <meta charset=UTF-8>
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title> I.E: Gustavo Duarte Aleman | Bienvenido</title>
-    <link rel="stylesheet" href="./style.css">
+    <meta name="viewport" content="width=deice-width, initial=scale=1.0">
+    <title> I.E: Gustavo Duarte Aleman | Incio de sesión</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
     <link href="https://fonts.googleapis.com/css2?family=Almarai:wght@400;700&display=swap" rel="stylesheet">
+    <link href="style.css" rel="stylesheet" type="text/css">
 </head>
 
-
 <body>
-    <section>
-        <a href="login.html" alt="Logo Institucion Educativa" id="logo" name="logo"><img src="./logo.png" alt="Logo Institucion Educativa" id="logo" name="logo"></a>
-    </section>
 
-    <section>
-        <H1>Aplicación Control de Tareas</H1>
-        <H1>Bienvenid@s</H1>
-    </section>
+    <div class="text-center">
+        <img src="./logo.png" alt="Logo Institucion Educativa" class="img-fluid" id="logo" name="logo">
+        <H1>Aplicación Control de Tareas</br> Bienvenid@s
+        </H1>
+    </div>
+    <div class="row">
+        <div class="col-3 offset-5 ">
+
+            <form class="needs-validation" id="form" name="form" action="valida.html" method="POST" novalidate>
+                <div class="row">
+                    <div class="col-8 ">
+                        <label for="usuario">Usuario:</label>
+                        <input type="text" id="usuario" placeholder="Cuenta de usuario:" name="usuario" class="form-control" aria-describedby="usuarioHelpBlock" required>
 
 
+                        <span id="usuarioHelpBlock" class="form-text">No compartirás tu usuario con alguien mas.</span>
+                        <label for="contraseña">Contraseña:</label>
+                        <input type="password" id="contraseña" placeholder="Contraseña" name="contraseña" class="form-control" aria-describedby="passwordHelpBlock" required>
+
+
+                        <span id="passwordHelpBlock" class="form-text">No compartirás tu clave con alguien mas.</span>
+                        <span class="d-grid gap-2 col-3 mx-auto">
+                            <button class="btn btn-outline-light btn-sm" type="submit" id="enviar" name="enviar">></button>
+                        </span>
+                        <div id="popover" name="popover" data-bs-toggle="popover" title="Tenemos un problema" data-bs-content="Debes de llenar ambos campos con los datos requeridos para poder continuar"></div>
+
+                    </div>
+                </div>
+
+            </form>
+
+        </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ" crossorigin="anonymous"></script>
+    <script src="index.js"></script>
 </body>
 
 </html>

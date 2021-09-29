@@ -2,25 +2,20 @@ body {
     background-color: rgb(44 130 201);
 }
 
-h1 {
-    color: black;
-    margin-top: 60px;
-}
-
 h2 {
     color: white;
     margin-top: 30px;
+}
+
+h1 {
+    color: black;
+    margin-top: 60px;
 }
 
 label {
     color: white;
     font-size: calc(1.325rem + .9vw);
     margin-top: 40px;
-}
-
-.form-text {
-    color: white;
-    margin-top: 0px;
 }
 
 .form-check-input {
