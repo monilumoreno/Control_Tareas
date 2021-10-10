@@ -7,34 +7,44 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Estudiantes</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
-    <link href="estiloEstudiante.css" rel="stylesheet" type="text/css">
+    <link href="../css/style.css" rel="stylesheet" type="text/css">
 
 
 </head>
 
 <body>
     <!--Codigo para perfil estudiantes-->
-    <form  action="" id="formulario" method=""></form>
-        <div>
-        
-            <h1>Bienvenid@ Estudiante</h1>
+    <div class="text-center">
+        <img src="../img/logo.png" alt="Logo Institucion Educativa" class="img-fluid" id="logo" name="logo">
+        <H1>Aplicación Control de Tareas</H1>
+        <h2>Bienvenidos a Perfil Estudiantes</h2>
+    </div>
+    <div class="row">
+        <div class="col-6 offset-3">
+            <form action="selecciones.html" name="formDocentes">
+                <div class="row">
+                    <div class="col-12 text-center">
+                        <h1>¿Qué deseas hacer?</h1>
+                    </div>
 
-            <h2>¿Qué deseas hacer?</h2>
+                    <div class="form-check">
+                        <input class="form-check-input btn btn-outline-success" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
+                        <label class="form-check-label" for="flexRadioDefault1">
+                          Ver tareas
+                        </label><br>
+                        <input class="form-check-input btn btn-outline-success" type="radio" name="flexRadioDefault" id="flexRadioDefault2" checked>
+                        <label class="form-check-label" for="flexRadioDefault2">
+                          Marcar cumplimientos
+                        </label>
+                    </div>
 
-            <br>
-            <div>
-                <label name="verTareas" for="verTareasCheck"> Ver tareas </label>
-                <input id="verTareasCheck" type="checkbox" name="verTareas" id="verTareas">
-            </div>
-            <div>
-                <label name="marcarCumplimientos" for="marcarCumplimientosCheck"> Marcar Cumplimientos </label>
-                <input  id="marcarCumplimientosCheck" type="checkbox" name="marcarCumplimientos" id="marcarCumplimientos">
-                
-            </div>
-        
+                </div>
+            </form>
         </div>
-    </form>
-    
+    </div>
+
+
+
 </body>
 
 </html>
