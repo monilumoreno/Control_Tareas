@@ -1,0 +1,35 @@
+body {
+    background: #acb6e5;
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #86fde8, #acb6e5);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #86fde8, #acb6e5);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+h2 {
+    color: rgb(32, 32, 32);
+    margin-top: 30px;
+}
+
+h1 {
+    color: rgb(32, 32, 32);
+    margin-top: 60px;
+}
+
+label {
+    color: rgb(32, 32, 32);
+    font-size: calc(1.325rem + .9vw);
+    margin-top: 40px;
+}
+
+.form-text {
+    color: white;
+    margin-top: 0px;
+}
+
+.form-check-input {
+    margin-top: 50px;
+    width: 28px;
+    height: 28px;
+}
